@@ -1,5 +1,6 @@
 const express = require("express");
 const router = express.Router();
+const port = 4000 || process.env.PORT;
 
 //RETORNA TODOS OS PEDIDOS
 router.get("/", (req, res) => {
