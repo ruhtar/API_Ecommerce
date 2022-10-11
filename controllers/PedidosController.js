@@ -25,7 +25,7 @@ class PedidosController {
                 request: {
                   tipo: "GET",
                   descricao: "Retorna os detalhes do item em questão",
-                  url: `http://localhost:${port}/pedidos/${item.pedido}`,
+                  url: process.env.URL + `/pedidos/${item.pedido}`,
                 },
               };
             }),
@@ -55,7 +55,7 @@ class PedidosController {
             request: {
               tipo: "GET",
               descricao: "Retorna todos os pedidos",
-              url: `http://localhost:${port}/pedidos`,
+              url: process.env.URL + `/pedidos`,
             },
           };
           return res.status(200).send(response);
@@ -91,7 +91,7 @@ class PedidosController {
                   request: {
                     tipo: "GET",
                     descricao: "Retorna todos os pedidos",
-                    url: `http://localhost:${port}/pedidos`,
+                    url: process.env.URL + `/pedidos`,
                   },
                 };
                 return res.status(201).send(response);
