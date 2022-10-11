@@ -1,9 +1,9 @@
 const port = process.env.PORT || 4000;
 const express = require("express");
 const app = express();
-const rotaProdutos = require("./routes/produtos");
-const rotaPedidos = require("./routes/pedidos");
-const rotaUsuarios = require("./routes/usuarios");
+const rotaProdutos = require("../routes/produtos");
+const rotaPedidos = require("../routes/pedidos");
+const rotaUsuarios = require("../routes/usuarios");
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
@@ -42,5 +42,5 @@ app.use((error, req, res, next) => {
 
 //Abrindo servidor
 app.listen(port, () => {
-  console.log("Servidor aberto na porta 4000");
+  console.log(`Servidor aberto na porta port`);
 });
