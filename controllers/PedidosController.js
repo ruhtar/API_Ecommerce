@@ -25,7 +25,7 @@ class PedidosController {
                 request: {
                   tipo: "GET",
                   descricao: "Retorna os detalhes do item em questão",
-                  url: process.env.URL + `/pedidos/${item.pedido}`,
+                  url: process.env.URL_API_API + `/pedidos/${item.pedido}`,
                 },
               };
             }),
@@ -55,7 +55,7 @@ class PedidosController {
             request: {
               tipo: "GET",
               descricao: "Retorna todos os pedidos",
-              url: process.env.URL + `/pedidos`,
+              url: process.env.URL_API + `/pedidos`,
             },
           };
           return res.status(200).send(response);
@@ -91,7 +91,7 @@ class PedidosController {
                   request: {
                     tipo: "GET",
                     descricao: "Retorna todos os pedidos",
-                    url: process.env.URL + `/pedidos`,
+                    url: process.env.URL_API + `/pedidos`,
                   },
                 };
                 return res.status(201).send(response);
