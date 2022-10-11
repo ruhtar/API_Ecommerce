@@ -1,6 +1,5 @@
-export{}
-const mysql = require("../mysql").pool;
-const port = 4000 || process.env.PORT
+const mysql = require("../database/mysql").pool;
+const port = 4000 || process.env.PORT;
 
 class PedidosController {
   static retornaTodosPedidos(req, res) {
