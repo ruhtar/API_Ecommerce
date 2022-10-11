@@ -1,8 +1,10 @@
+export{}
 const port = process.env.PORT || 4000;
 const express = require("express");
 const app = express();
 const rotaProdutos = require("./routes/produtos");
 const rotaPedidos = require("./routes/pedidos");
+const rotaUsuarios = require("./routes/usuarios");
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
@@ -23,6 +25,7 @@ app.use((req, res, next) => {
 
 app.use("/pedidos", rotaPedidos);
 app.use("/produtos", rotaProdutos);
+app.use("/usuarios", rotaUsuarios);
 
 //Tratamento de erros quando não encontra a rota
 app.use((req, res, next) => {
