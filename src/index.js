@@ -42,5 +42,5 @@ app.use((error, req, res, next) => {
 
 //Abrindo servidor
 app.listen(port, () => {
-  console.log(`Servidor aberto na porta port`);
+  console.log(`Servidor aberto na porta ${port}`);
 });
