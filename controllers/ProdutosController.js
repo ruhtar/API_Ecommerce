@@ -21,7 +21,7 @@ class ProdutosController {
               request: {
                 tipo: "GET",
                 descricao: "Retorna os detalhes do item em questão",
-                url: URL + `/produtos/${item.id_produto}`,
+                url: process.env.URL_API + `produtos/${item.id_produto}`,
               },
             };
           }),
@@ -52,7 +52,7 @@ class ProdutosController {
             request: {
               tipo: "GET",
               descricao: "Retorna todos os produtos",
-              url: process.env.URL_API + `/produtos`,
+              url: process.env.URL_API + `produtos`,
             },
           };
           return res.status(200).send(response);
@@ -81,7 +81,7 @@ class ProdutosController {
             request: {
               tipo: "POST",
               descricao: "Retorna todos os produtos",
-              url: process.env.URL_API + `/produtos`,
+              url: process.env.URL_API + `produtos`,
             },
           };
           return res.status(201).send(response);
@@ -111,7 +111,7 @@ class ProdutosController {
             request: {
               tipo: "PATCH",
               descricao: "Retorna todos os produtos",
-              url: process.env.URL_API + `/produtos`,
+              url: process.env.URL_API + `produtos`,
             },
           };
           return res.status(202).send(response);
