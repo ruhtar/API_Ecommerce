@@ -25,7 +25,7 @@ class PedidosController {
                 request: {
                   tipo: "GET",
                   descricao: "Retorna os detalhes do item em questão",
-                  url: process.env.URL_API + `pedidos/${item.id_pedido}`,
+                  url: process.env.URL_API + `/pedidos/${item.id_pedido}`,
                 },
               };
             }),
