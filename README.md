@@ -12,11 +12,11 @@ Algumas endpoints só são permitidos caso o usuário esteja logado, isto é, ma
  - [x] Atualizar produto (Requer login do usuário)
  - [x] Remover produto (Requer login do usuário)
 
- 
- - [x] Cadastro de pedido (Requer login do usuário)
  - [x] Listagem de pedido
- - [x] Remover pedido (Requer login do usuário)
  - [x] Detalhar pedido 
+ - [x] Cadastro de pedido (Requer login do usuário)
+ - [x] Remover pedido (Requer login do usuário)
+
  
  - [x] Cadastro de usuário
  - [x] Listagem de usuários
@@ -38,8 +38,8 @@ Algumas endpoints só são permitidos caso o usuário esteja logado, isto é, ma
  /produtos           | GET    | Lista produtos
  /produto/id_produto         | GET    | Detalha produto
  /produtos           | POST   | Cadastra produto
- /produto/id_produto         | PUT    | Atualiza produto
- /produto/id_produto        | DELETE | Remove produto
+ /produtos/id_produto         | PATCH    | Atualiza produto
+ /produtos/id_produto        | DELETE | Remove produto
  /pedidos            | GET    | Lista pedidos
  /pedidos/id_pedido     | GET    | Detalha pedido
  /pedidos            | POST   | Cadastra pedido
