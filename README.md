@@ -30,7 +30,7 @@ Algumas endpoints só são permitidos caso o usuário esteja logado, isto é, ma
  - ``MySQ``
  - ``Postman``
  
- ### Endpoints
+ ### 🎯 Endpoints
 
  Path | Method | Description
  ---|---|---
