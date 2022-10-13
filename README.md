@@ -49,7 +49,7 @@ Algumas endpoints só são permitidos caso o usuário esteja logado, isto é, ma
  ------------------------------------------------------------------
  Path | Method | Description
  ---|---|---
- /usuarios/        | GET    | Lista usuarios
+ /usuarios        | GET    | Lista usuarios
  /usuarios/cadastro  | POST    | Cadastra usuario
  /usuarios/login  | POST    | Loga usuario
  
