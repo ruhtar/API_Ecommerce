@@ -56,5 +56,6 @@ Algumas endpoints só são permitidos caso o usuário esteja logado, isto é, ma
  
  ## ℹ️ Author Info
 
-- Twitter - [@arthur_https](https://twitter.com/http_ruhtar)
+- Email - [Gmail: arthur.amorim10@gmail.com](arthur.amorim10@gmail.com)
 - Linkedin - [Arthur Amorim](https://www.linkedin.com/in/arthur-amorim-bs/)
+- Twitter - [@arthur_https](https://twitter.com/http_ruhtar)
