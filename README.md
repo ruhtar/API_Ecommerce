@@ -55,7 +55,7 @@ Algumas endpoints só são permitidos caso o usuário esteja logado, isto é, ma
  
  
  ## ℹ️ Author Info
- 
-[![Twitter Badge](https://img.shields.io/badge/-@arthur_https-1ca0f1?style=flat-square&labelColor=1ca0f1&logo=twitter&logoColor=white&link=https://twitter.com/arthur_https)](https://twitter.com/arthur_https) 
+
 [![Linkedin Badge](https://img.shields.io/badge/-Arthur-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/arthur-amorim-bs/)](https://www.linkedin.com/in/arthur-amorim-bs/) 
 [![Gmail Badge](https://img.shields.io/badge/-arthur.amorim10@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:arthur.amorim10@gmail.com)](mailto:arthur.amorim10@gmail.com)
+[![Twitter Badge](https://img.shields.io/badge/-@arthur_https-1ca0f1?style=flat-square&labelColor=1ca0f1&logo=twitter&logoColor=white&link=https://twitter.com/arthur_https)](https://twitter.com/arthur_https) 
