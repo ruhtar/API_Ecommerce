@@ -55,6 +55,8 @@ Algumas endpoints só são permitidos caso o usuário esteja logado, isto é, ma
  
  
  ## 🙋 Author Info
+ 
+ Some places where you can contact me:
 
 [![Linkedin Badge](https://img.shields.io/badge/-Arthur-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/arthur-amorim-bs/)](https://www.linkedin.com/in/arthur-amorim-bs/) 
 [![Gmail Badge](https://img.shields.io/badge/-arthur.amorim10@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:arthur.amorim10@gmail.com)](mailto:arthur.amorim10@gmail.com)
