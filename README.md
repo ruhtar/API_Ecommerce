@@ -11,13 +11,12 @@ Algumas endpoints só são permitidos caso o usuário esteja logado, isto é, ma
  - [x] Cadastro de produto (Requer login do usuário)
  - [x] Atualizar produto (Requer login do usuário)
  - [x] Remover produto (Requer login do usuário)
-
+------------------------------------------------------------------
  - [x] Listagem de pedido
  - [x] Detalhar pedido 
  - [x] Cadastro de pedido (Requer login do usuário)
  - [x] Remover pedido (Requer login do usuário)
-
- 
+------------------------------------------------------------------
  - [x] Cadastro de usuário
  - [x] Listagem de usuários
  - [x] Login de usuário
@@ -47,3 +46,9 @@ Algumas endpoints só são permitidos caso o usuário esteja logado, isto é, ma
  /usuarios/        | GET    | Lista usuarios
  /usuarios/cadastro  | POST    | Cadastra usuario
  /usuarios/login  | POST    | Loga usuario
+ 
+ 
+ ## Author Info
+
+- Twitter - [@arthur_https](https://twitter.com/http_ruhtar)
+- Linkedin - [Arthur Amorim](https://www.linkedin.com/in/arthur-amorim-bs/)
