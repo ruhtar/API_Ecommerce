@@ -36,14 +36,14 @@ Algumas endpoints só são permitidos caso o usuário esteja logado, isto é, ma
  Path | Method | Description
  ---|---|---
  /produtos           | GET    | Lista produtos
-  /produto/id_produto         | GET    | Detalha produto
+ /produto/id_produto         | GET    | Detalha produto
  /produtos           | POST   | Cadastra produto
  /produto/id_produto         | PUT    | Atualiza produto
  /produto/id_produto        | DELETE | Remove produto
- /autores/id        | GET    | Detalha autor
- /livros            | GET    | Lista livros
- /livros            | POST   | Cadastra livro
- /livros            | PUT    | Atualiza livro
- /livros/id         | DELETE | Remove livro
- /livros/id         | GET    | Detalha livro
- /relatorios/autor  | GET    | Exibe relatório
+ /pedidos            | GET    | Lista pedidos
+ /pedidos/id_pedido     | GET    | Detalha pedido
+ /pedidos            | POST   | Cadastra pedido
+ /pedidos/id_pedido        | DELETE | Remove pedido
+ /usuarios/        | GET    | Lista usuarios
+ /usuarios/cadastro  | POST    | Cadastra usuario
+ /usuarios/login  | POST    | Loga usuario
