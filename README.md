@@ -1,4 +1,4 @@
-# API_Ecommerce
+# Sistema de Ecommerce
 API feita em NodeJS com o framework Express utilizando o banco de dados MySQL. 
 A API foi feita na arquitetura REST e realiza um CRUD no banco de dados escolhido.
 A aplicação criptografa a senha do usuário e possui autenticação de login via JWT. 
