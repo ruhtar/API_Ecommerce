@@ -1,4 +1,4 @@
-# Sistema de Ecommerce
+# Sistema de Ecommerce 💰
 API feita em NodeJS com o framework Express utilizando o banco de dados MySQL. 
 A API foi feita na arquitetura REST e realiza um CRUD no banco de dados escolhido.
 A aplicação criptografa a senha do usuário e possui autenticação de login via JWT. 
@@ -54,7 +54,7 @@ Algumas endpoints só são permitidos caso o usuário esteja logado, isto é, ma
  /usuarios/login  | POST    | Loga usuario
  
  
- ## Author Info
+ ## ℹ️ Author Info
 
 - Twitter - [@arthur_https](https://twitter.com/http_ruhtar)
 - Linkedin - [Arthur Amorim](https://www.linkedin.com/in/arthur-amorim-bs/)
