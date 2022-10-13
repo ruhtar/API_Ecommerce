@@ -39,12 +39,16 @@ Algumas endpoints só são permitidos caso o usuário esteja logado, isto é, ma
  /produtos           | POST   | Cadastra produto
  /produtos/id_produto         | PATCH    | Atualiza produto
  /produtos/id_produto        | DELETE | Remove produto
-------------------------------------------------------------------------
+
+ Path | Method | Description
+ ---|---|---
  /pedidos            | GET    | Lista pedidos
  /pedidos/id_pedido     | GET    | Detalha pedido
  /pedidos            | POST   | Cadastra pedido
  /pedidos/id_pedido        | DELETE | Remove pedido
---------------------------------------------------------------------------
+ 
+ Path | Method | Description
+ ---|---|---
  /usuarios/        | GET    | Lista usuarios
  /usuarios/cadastro  | POST    | Cadastra usuario
  /usuarios/login  | POST    | Loga usuario
